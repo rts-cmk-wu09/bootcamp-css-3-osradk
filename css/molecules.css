@@ -1,0 +1,158 @@
+
+
+
+.annonce{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(232, 230, 230);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+ .contant_figure{
+    margin-top: 30px;
+    display: grid;
+     grid-template-columns: repeat(4 , 1fr);
+ }
+.contant_fig{
+    color: rgb(109, 108, 108);
+ grid-area: 1/1/2/2;
+ }
+ .contant_figure img{
+
+grid-area: 1/2/-1/5;
+}
+
+.contant__tex{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.grid-contaner{
+    grid-area: 1/2/-1/5;
+}
+
+
+.information hr{
+    border: 1px dotted rgb(157, 157, 157);
+  
+}
+
+.information__div1{
+    grid-area: 1/1/2/2;
+
+}
+.information__div2{
+    grid-area: 1/2/-1/5;
+
+
+}
+.information__div2 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.information__div2 p{
+    margin-top:40px;
+    
+}
+
+
+
+.profil-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.somi{
+    display: flex;
+    gap: 10px;
+  float: right;
+
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+.read__tittel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.figure-div{
+ 
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.grid-div{
+    display:grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 30px;
+}
+
+.grid-div{
+    color: red;
+}
+
+.anbefalinger{
+    display: flex;
+    flex-direction: column;
+}
+.anbefalinger .fa-user{
+     font-size: 30px;
+     background-color:rgb(73, 73, 73);
+     border-radius: 50%;
+     color:white;
+     padding:10px;
+     margin-top: 20px;
+     
+}
+.anbefalinger h4{
+    display: inline;
+    color: black;
+}
+.anbefalinger span{
+    margin-left: 72px;
+    color: rgb(171, 169, 169);
+}
+footer{
+    background-color:lightgrey ;
+    margin-top: 100px;
+}
+
+.fotter-container img{
+  height: 300px;
+}
+.avis-img{
+    margin-top: -85px;
+}
+.fotter-container input{
+    border: none;
+height: 30px;
+margin-top: 20px;
+color: grey;
+border-radius: 3px;
+padding: 8px;
+}
+
+
+footer article{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profil{
+    margin-top: 1.25rem;
+}
+
+
+
+#besked{
+    margin-top:0.7em;
+    text-align:right;
+    color:red; 
+  }

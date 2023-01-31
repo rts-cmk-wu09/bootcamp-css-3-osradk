@@ -1,0 +1,29 @@
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.contant{
+    margin-bottom: 30px;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.read{
+    padding-bottom: 40px;
+}
+.fotter-container{
+    max-width: 1000px;
+    margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+ padding-top: 25px;
+ gap: 30px;
+
+}

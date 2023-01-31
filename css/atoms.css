@@ -1,0 +1,153 @@
+hr{
+    border: 1px solid rgb(233, 232, 232);
+}
+
+
+ hr.hr{
+    border:none;
+    height: 20px;
+       width: 100%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #ffffff;
+      box-shadow: 0 20px 20px -20px rgb(185, 180, 180);
+    margin: -50px auto 10px; 
+  }
+     
+  h4{
+    margin-bottom: 10px;
+    color: rgb(174, 173, 171);
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.information__div2 h2{
+    margin: 20px;
+text-align:center;
+font-size:30px;
+}
+
+.information__div2 h4{
+  text-align: center;
+  margin: 20px;
+}
+
+.logo{
+    max-width:500px;
+  }
+
+  .navigation__menu{
+    display: flex;
+justify-content:space-between;
+align-items: center;
+height: 100px;
+}
+
+.navigation__nyhed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+   
+}
+.navigation__nyhed li{
+    margin-left: 20px;
+}
+.navigation__nyhed li:last-child{
+    color: red;
+}
+ nav ul{
+list-style: none;
+ }
+ .navigation__menu{
+   margin-left: 30px;
+ }
+ .read__tittel:first-child{
+    color: red;
+}
+.read hr{
+    border: 1px dotted rgb(157, 157, 157);
+}
+.figure-div-figure figcaption{
+    margin: 10px;
+   font-size: 20px;
+   font-weight:700;
+}
+.information__div1 ul{
+    margin-top: 20px;
+    list-style-type: none;
+   
+}
+.information__div1 ul p{
+    color: black;
+}
+.information__div1 ul span{
+    color: grey;
+}
+h5{
+    margin-top: 15px;
+}
+.grid-div figcaption{
+    color: black;
+    font-size: 20px;
+   font-weight: 700;
+}
+.grid-div h2{
+    color: black;
+    font-size: 20px;
+   font-weight: 700;
+   text-align: left;
+ padding-bottom: 0;
+ margin-left: 0;
+ margin-top:1px;
+}
+.contant_span{
+    color: red;
+}
+.information__h2{
+    color: red;
+}
+
+footer hr{
+    border: 1px solid rgb(233, 233, 233);
+    margin-top: 50px;
+}
+.hh{text-align:center;
+margin-top: 20px;}
+
+.fotter-container h2{
+    color: gray;
+    font-weight: 400;
+}
+.fotter-container h4{
+    padding-top: 10px;
+    color:gray;
+    font-weight:400;
+}
+.profil-img{
+    display:inline;
+    width: 50px;
+    height:50px;
+    border-radius: 50%; 
+   
+}
+.profi-navn{
+    display: inline;
+    font-size: 20px;
+
+}
+.fotter-container p{
+    padding-bottom: 0;
+}
+.profil p span{ 
+
+    margin-left: 20px;
+    font-size: 16px;
+    }
+    .profil p{
+        font-size: 16px;
+        margin-top: 15px;
+        color: black;
+    }
+        
